@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'home_controller.dart';
-// import 'home_page.dart';
+import 'home_page.dart';
 import 'list_example.dart';
+import 'add_text_on_list_example.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeController(child: ListExample()),
+      home: HomeController(child: ListAddText()),
     );
   }
 }
